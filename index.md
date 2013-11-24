@@ -1,9 +1,30 @@
 ---
 layout: page
-title: 你好呀
-tagline: 这里是刘寻同学的练习场
+title: 你好呀~
+tagline: 这里是老刘同学的练习场
 ---
 {% include JB/setup %}
+
+## 编码问题
+
+如果你在文档里写入了中文字符，可能会导致运行 `jekyll serve` 时提示：
+
+    Liquid Exception: invalid byte sequence in GB2312 in index.md
+
+这种情况，只需要在 `_config.yml` 文件里加一句 `encoding: UTF-8` 就可以了。
+
+
+## 自动刷新
+
+执行
+
+    jekyll serve --watch
+
+即可自动刷新，不用每次改东西都重启 jekyll 服务看效果了。
+
+##文档
+
+<!-- 回头把下面这些删了去 --> 
 
 读 [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 

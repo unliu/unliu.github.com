@@ -12,3 +12,5 @@ tags: []
 I cannot type chinese in shell.
 
 Well, it takes about *40 seconds* to update a post.
+
+Ah ah, sometimes it's more than 4 minutes. So keep calm and take it easy.

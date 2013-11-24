@@ -10,3 +10,5 @@ tags: []
 	Thanks.
 
 I cannot type chinese in shell.
+
+Well, it takes about *40 seconds* to update a post.

@@ -8,3 +8,5 @@ tags: []
 {% include JB/setup %}
 ## I am OK
 	Thanks.
+
+I cannot type chinese in shell.
